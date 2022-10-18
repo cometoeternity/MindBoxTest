@@ -1,8 +1,8 @@
 namespace MindBoxTest.Common.Exceptions;
 
-public class IncorectCircleRadiusException : MindBoxTestException
+public class IncorrectCircleRadiusException : MindBoxTestException
 {
-    public IncorectCircleRadiusException(string message) : base(message)
+    public IncorrectCircleRadiusException() : base("Некорректны радиус круга!")
     {
     }
 }

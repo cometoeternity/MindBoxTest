@@ -1,6 +1,8 @@
 namespace MindBoxTest.Common.Exceptions;
 
-public class MindBoxTestException
+public abstract class MindBoxTestException : Exception
 {
-    
+    protected MindBoxTestException(string message) : base(message)
+    {
+    }
 }

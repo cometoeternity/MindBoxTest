@@ -1,6 +1,6 @@
 namespace MindBoxTest.Common.Core;
 
-public interface ICircle
+public interface ICircle : IFigure
 {
     
 }

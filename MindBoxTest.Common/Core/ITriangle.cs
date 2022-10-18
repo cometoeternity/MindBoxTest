@@ -1,6 +1,5 @@
 namespace MindBoxTest.Common.Core;
 
-public interface ITriangle
+public interface ITriangle : IFigure
 {
-    
 }
